@@ -2,7 +2,7 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from application.config import config
 from application.database import db
-from application.model import User 
+from application.model import * 
 import os
 from flask_cors import CORS
 def createapp():
